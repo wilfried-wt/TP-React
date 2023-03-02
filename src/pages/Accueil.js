@@ -7,13 +7,11 @@ export default function Accueil() {
 
     return(
         <div>
-            <Header/>
             <h1 className="title"> Liste des produits disponible</h1>
             <div className="body">
                 <Corps/>
 
             </div>
-            <Footer/>
         </div>
     )
 }

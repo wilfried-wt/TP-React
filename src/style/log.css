@@ -7,6 +7,11 @@ input[type=text], input[type=password]{
     margin: 8px 0;
     display: inline-block;
     box-sizing: border-box;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
 button{
     background-color: #04AA6D;
@@ -16,6 +21,11 @@ button{
     width: 100%;
     color: white;
     border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
 button:hover{
     opacity: 0.8;
@@ -27,30 +37,42 @@ button:hover{
 }
 .imgcontainer{
     text-align: center;
-    margin: 24px 0 12px 0;
+    margin: 10px 0 12px 0;
     width: 100%;
+
 }
 .avatar{
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     border-radius: 10px 10px 50px 50px;
     /* border: 2px green solid; */
-    -webkit-border-radius: 10px 10px 50px 50px;
-    -moz-border-radius: 10px 10px 50px 50px;
-    -ms-border-radius: 10px 10px 50px 50px;
-    -o-border-radius: 10px 10px 50px 50px;
 }
-.container {
-    padding: 16px;
+.signup {
+    text-align: center;
+    margin-top: 30px;
+    /* padding: 16px; */
 }
 .psw {
     float: right;
-    padding-top: 16px;
+    /* padding-top: 16px; */
 }
 .psw:hover{
     color: green;
     text-decoration: none;
 }
+
+.login{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+
 @media screen and (max-width: 300px) {
     span.psw {
       display: block;
