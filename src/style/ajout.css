@@ -1,0 +1,35 @@
+td, th{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+}
+
+table{
+    margin: 25px auto;
+    border-collapse: collapse;
+}
+
+.d{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-right: 1px solid black;
+}
+
+.minor-btn{
+    margin: 5px 5px;
+    width: auto;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.main-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#w{
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+}

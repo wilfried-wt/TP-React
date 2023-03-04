@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 
 export default function App() {
   const [todo, setTodo] = useState("");
@@ -10,7 +10,7 @@ export default function App() {
     setTodos((todos) => [
       ...todos,
       {
-        id: uuidv4(),
+        // id: uuidv4(),
         todo
       }
     ]);
@@ -24,7 +24,7 @@ export default function App() {
     <div className="App">
       <form onSubmit={submit}>
         <input value={todo} onChange={(e) => setTodo(e.target.value)} />
-        <button type="submit">Add</button>
+        <button type="submit">Add task</button>
       </form>
       {todos.map((t, i) => {
         return (

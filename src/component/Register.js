@@ -10,7 +10,7 @@ function Register() {
     <Form className='login'>
 
         <div className="imgcontainer">
-                        <img src={produit} alt="logo" class="avatar"/>
+            <img src={produit} alt="logo" class="avatar"/>
         </div>
         <Form.Group>
             <Form.Label>Username</Form.Label>

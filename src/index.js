@@ -16,12 +16,20 @@ import Header from './component/Header';
 import Corps from './component/Corps';
 import { BrowserRouter } from 'react-router-dom';
 import Register from './component/Register';
+import TodoApp from './todo/TodoApp';
+// import App from './todo/Todo';
+import NewTodo from './todo/Newtodo';
+import Ajout from './component/Ajout';
+import store from './app/store'
+import { Provider } from 'react-redux'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <App/>
+      <Provider store={store}>
+        <App/>
+      </Provider>
   </React.StrictMode>
 );
 
