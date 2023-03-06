@@ -1,11 +1,17 @@
 .flex{
  display: flex;
  flex-direction: row;
- justify-content: space-around;   
+ justify-content: space-around;      
 }
 
-Button{
-    margin-right: 10px;
+/* Button{
+    margin-right: 100px;
+    height: 40px;
+    width: auto;
+} */
+
+.btn{
+    margin-right: 25px;
     height: 40px;
     width: auto;
 }

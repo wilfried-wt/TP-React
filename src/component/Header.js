@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, useNavigate } from 'react-router-dom';
-import '../style/header.css'
+import '../style/header.css';
 
 function Header() {
 const navigate = useNavigate();
@@ -19,7 +19,7 @@ const navigate = useNavigate();
 
           </Nav>
           <div className="flex">
-            <Button variant="secondary" onClick={ () => {navigate("/login")}}>Log in</Button>
+            <Button className='btn' variant="secondary" onClick={ () => {navigate("/login")}}>Log in</Button>
             <Button variant="primary" onClick={ () => {navigate("/manage")}}>Manage</Button>
             <Button variant="secondary" onClick={ () => {navigate("/register")}}>Sign up</Button>
           </div>

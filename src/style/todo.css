@@ -1,0 +1,32 @@
+.main{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.todo-list{
+    /* height: 100vh; */
+    width: 750px;
+    /* border: 3px solid black; */
+    margin: 0 auto;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.task{
+    text-align: center;
+    padding-top: 10px;
+}
